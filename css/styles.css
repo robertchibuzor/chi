@@ -1,0 +1,54 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: chartreuse;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.v{
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  
+}
+
+
+button[type="button"]{
+  width: 150px;
+  height: 50px;
+  background-color: red;
+  border-style: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+.card-group{
+  padding-top: 20px;
+}
+
+.r{
+  color: blue;
+}
